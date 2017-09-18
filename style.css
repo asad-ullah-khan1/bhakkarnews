@@ -1,0 +1,88 @@
+/*
+Theme Name: Bhakkar Times 
+Author: Asad Ullah	
+Author URI: http://facebook.com/akhrota1
+Description: Custom Theme for Bhakkar Times
+Version: 1.0
+*/
+
+.navbar-inverse{
+	border: 0;
+	border-radius: 0;
+	background-color: #005C72;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	background: #009EBB;
+}
+
+.navbar-brand{
+	color: #fff;
+}
+.navbar-default ul li a {
+	color: #fff;
+}
+
+article.post{
+	border-bottom: #ccc solid 1px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+article.post:last-child{
+	border-bottom:none;
+}
+
+article.post img{
+	width:100%;
+	height:auto;
+	margin-top:30px;
+}
+
+article.post .meta{
+	background: #005D6F;
+	padding: 8px 12px;
+	color:#fff;
+}
+
+.comment-list{
+	list-style: none;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.comment-item{
+	overflow:auto;
+}
+
+#footer{
+	background: #005C72;
+	color: #fff;
+	padding: 50px;
+	height: 100%;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* Video Frame Section */
+.video-frame{
+  background:url('img/tvframe.png') no-repeat center center;
+  background-size: cover;
+}
+
+.video-frame iframe{
+	box-shadow: 10px 10px 5px #888888;
+}
+.social-links .fa {
+	font-size: 1.5em;
+}
+span#phone-number {
+	color: red;
+}
+.panel-default > .panel-heading {
+	background: #005D70;
+	color: #fff;
+}
